@@ -87,7 +87,7 @@ export default class Banner extends Component {
                                 </div>
                             </div>
                             <div class="button-holder">
-                                <a href="/" class="btn-getstarted">Get Started Now</a>
+                                <a href="/" class="btn-getstarted" onClick={this.openPage.bind(this)}>GET STARTED NOW</a>
                             </div>
                         </div>
                         <div class="banner-right-col">
